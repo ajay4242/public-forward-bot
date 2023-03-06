@@ -24,7 +24,7 @@
 
 ### VPS deploying -
 ``` 
-git clone https://github.com/Mokshb6458/public-forward-bot && cd public-forward-bot
+git clone https://github.com/ajay4242/public-forward-bot.git && cd public-forward-bot
 ```
 ```
 apt install python3-pip
