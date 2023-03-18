@@ -39,7 +39,7 @@ async def stop_button(bot, message):
         text="Stoping all processes...",
         chat_id=message.chat.id
     )
-    await asyncio.sleep(1)
+    await asyncio.sleep(1/15)
     await msg.edit("All Processes Stopped and Restarted")
     os.execl(sys.executable, sys.executable, *sys.argv)
 

@@ -86,7 +86,7 @@ async def forward(bot, message):
                             caption=caption,
                             message_id=message_id
                             )
-                    await asyncio.sleep(1)
+                    await asyncio.sleep(1/10)
                     try:
                         status.add(1)
                     except:
@@ -111,7 +111,7 @@ async def forward(bot, message):
                             caption=caption,
                             message_id=message_id
                             )
-                    await asyncio.sleep(1)
+                    await asyncio.sleep(1/10)
 
 
                 except Exception as e:
@@ -241,7 +241,8 @@ async def forward(bot, message):
                                 acount -= 1
                                 bcount -= 1
                                 MessageCount += 1
-                                mainsleep=random.randint(3, 8)
+                                mainslee=random.randint(3, 8)
+                                mainsleep=mainslee/10
                                 try:
                                     datetime_ist = datetime.now(IST)
                                     ISTIME = datetime_ist.strftime("%I:%M:%S %p - %d %B %Y")
@@ -264,7 +265,7 @@ async def forward(bot, message):
                                     status.remove(1)
                                 except:
                                     pass
-                                csleep=random.randint(250, 500)
+                                csleep=random.randint(25, 50)
                                 try:
                                     datetime_ist = datetime.now(IST)
                                     ISTIME = datetime_ist.strftime("%I:%M:%S %p - %d %B %Y")
@@ -287,7 +288,7 @@ async def forward(bot, message):
                                 status.remove(1)
                             except:
                                 pass
-                            bsl=random.randint(1000, 1200)
+                            bsl=random.randint(100, 120)
                             try:
                                 datetime_ist = datetime.now(IST)
                                 ISTIME = datetime_ist.strftime("%I:%M:%S %p - %d %B %Y")
@@ -310,7 +311,7 @@ async def forward(bot, message):
                             status.remove(1)
                         except:
                             pass
-                        asl=random.randint(1500, 2000)
+                        asl=random.randint(150, 200)
                         try:
                             datetime_ist = datetime.now(IST)
                             ISTIME = datetime_ist.strftime("%I:%M:%S %p - %d %B %Y")
@@ -332,7 +333,7 @@ async def forward(bot, message):
                         status.remove(1)
                     except:
                         pass
-                    msl=random.randint(2000, 3000)
+                    msl=random.randint(200, 300)
                     try:
                         datetime_ist = datetime.now(IST)
                         ISTIME = datetime_ist.strftime("%I:%M:%S %p - %d %B %Y")
